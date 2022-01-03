@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='OniSenPy',
     version='0.1',
-    packages=['OniSenPy'],
+    packages=['onisenpy'],
     url='',
     license='GNU AGPLv3 ',
     author='Lucas Barbier',

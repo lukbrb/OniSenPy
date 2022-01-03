@@ -1,10 +1,10 @@
 import unittest
 import requests
-from ..BASE_URLs import *
+from onisenpy.BASE_URLs import *
 
 
 class TestApi(unittest.TestCase):
-    """ Vérifie si les requêtes avec les url de base sonnt valides."""
+    """ Vérifie si les requêtes avec les url de base sont valides."""
     def test_check_base_url(self):
         r = requests.get(BASE)
         self.assertTrue(r.ok)
