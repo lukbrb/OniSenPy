@@ -1,3 +1,4 @@
 .idea
 /onisenpy/__pycache__
 onisenpy/connexion_data.py
+.gitattributes
